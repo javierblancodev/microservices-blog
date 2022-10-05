@@ -5,7 +5,7 @@ const { randomBytes } = require('crypto');
 // create express application
 const app = express();
 
-// parse incoming json request to converted into js object
+// parse incoming json request to convert it into js object
 app.use(bodyParser.json());
 
 // create a colection of post: object
